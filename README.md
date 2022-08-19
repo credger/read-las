@@ -11,19 +11,9 @@ Run the function using the following line of code:
 
 #readlas(fileName)
 
-where the argument 'fileName' is the name of your LAS file in string format.  If your LAS file is located outside of your working directory, you will also need to provide the file path.  The outputs of the function can be accessed via object attribute syntax as follows:
+where the argument 'fileName' is the name of a single LAS file in string format.  If your LAS file is located outside of your working directory, you will also need to provide the file path.  The outputs of the function can be accessed via object attribute syntax as follows:
 
-readlas.wellname
-readlas.api
-readlas.uwi
-readlas.strt
-readlas.stop
-readlas.step
-readlas.null
-readlas.header
-readlas.curves
-readlas.units
-readlas.data
+readlas.wellname, readlas.api, readlas.uwi, readlas.strt, readlas.stop, readlas.step, readlas.null, readlas.header, readlas.curves, readlas.units, readlas.data,
 
 The output 'readlas.data' contains the curve data stored in a Pandas DataFrame.  To see an example of how this function works, open and run the file ./example/readlasExample.py.  
 
