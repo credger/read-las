@@ -181,7 +181,7 @@ def readlas(fileName):
     readlas.units = units
     readlas.data = data
     
-    print('Use object attribute syntax to access outputs (i.e. readlas.wellname)')
+    print('Use object attribute syntax to access outputs (e.g. readlas.wellname)')
     print()
     print('Available outputs: wellname, api, uwi, strt, stop, step, null, header, curves, units, data')
     print()
